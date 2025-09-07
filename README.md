@@ -6,39 +6,51 @@ Um projeto em django que implementa um "Forum" de **Perguntas** e **Respostas**
 
 ## Funcionalidades
 
--App forúm com modelo de `Perguntas` e `Respostas`
--Registros dos modelos no django admin
--Shell interativo para manipular dados facilmente
+-App forúm com modelo de `Perguntas` e `Respostas`  
+
+-Registros dos modelos no django admin  
+
+-Shell interativo para manipular dados facilmente  
+
 
 ## Tecnologias
 
--Python 3.9
--Django 5.2
--Sqlite 
--Cmd
+-Python 3.9  
+
+-Django 5.2  
+
+-Sqlite   
+
+-Cmd  
+
 
 ## Como usar
 
-1. Clone o repositório:  
-   ```bash
+1. Clone o repositório:
+2. 
    git clone <URL_DO_REPO>
    cd projeto_django
+   
 
-2. Ative o ambiente virtual(Windows):  
+4. Ative o ambiente virtual(Windows):
+     
    .venv\Scripts\Activate
    
-3. Intale dependencias:
+   
+5. Intale dependencias:
+   
    pip install -r requirements.txt
+   
 
-4. Crie APP e Imigraçoes:
+7. Crie APP e Imigraçoes:
    py manage.py makemigrations
    py manage.py migrate
 
-5. Crie o usuario para acessar o admin:
+8. Crie o usuario para acessar o admin:
    py manage.py createsuperuser
    
-6. Execute o servidor:
+9. Execute o servidor:
   py manage.py runserver
 
-7. Acesse o admin:
+10. Acesse o admin:
    http://127.0.0.1:8000/admin/
