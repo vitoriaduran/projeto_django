@@ -26,40 +26,40 @@ Um projeto em django que implementa um "Forum" de **Perguntas** e **Respostas**
 
 ## Como usar
 
-1. Clone o repositório:
-2. 
+1. **Clone o repositório:**
+ 
    git clone <URL_DO_REPO>
    cd projeto_django
    
 
-4. Ative o ambiente virtual(Windows):
+2. **Ative o ambiente virtual(Windows):**
      
    .venv\Scripts\Activate
    
    
-5. Intale dependencias:
+3. **Intale dependencias:**
    
    
    pip install -r requirements.txt
 
      
-6. Crie APP e Imigraçoes:
+4. **Crie APP e Imigraçoes:**
    
    py manage.py makemigrations
    
    py manage.py migrate
    
 
-7. Crie o usuario para acessar o admin:
+5. **Crie o usuario para acessar o admin:**
    
    py manage.py createsuperuser
    
    
-8. Execute o servidor:
+6. **Execute o servidor:**
 
   py manage.py runserver
 
 
-11. Acesse o admin:
+7. **Acesse o admin:**
 
    http://127.0.0.1:8000/admin/
