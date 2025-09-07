@@ -39,18 +39,27 @@ Um projeto em django que implementa um "Forum" de **Perguntas** e **Respostas**
    
 5. Intale dependencias:
    
+   
    pip install -r requirements.txt
+
+     
+6. Crie APP e Imigraçoes:
+   
+   py manage.py makemigrations
+   
+   py manage.py migrate
    
 
-7. Crie APP e Imigraçoes:
-   py manage.py makemigrations
-   py manage.py migrate
-
-8. Crie o usuario para acessar o admin:
+7. Crie o usuario para acessar o admin:
+   
    py manage.py createsuperuser
    
-9. Execute o servidor:
+   
+8. Execute o servidor:
+
   py manage.py runserver
 
-10. Acesse o admin:
+
+11. Acesse o admin:
+
    http://127.0.0.1:8000/admin/
